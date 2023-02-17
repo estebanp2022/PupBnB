@@ -6,6 +6,7 @@ function Main() {
     return (
       <Card
         key={item.id}
+        name={item.name}
         img={item.coverImg}
         rating={item.stats.rating}
         reviewCount={item.stats.reviewCount}
