@@ -17,29 +17,20 @@
 Users should be able to:
 
 - View the optimal layout for the site depending on their device's screen size
-- Receive an error message when the `form` is submitted if:
-  - The `input` field is empty
 
 ### Screenshot
 
-![](./images/screenshot.png)
+![](./src/assets/screenshot.png)
 
 ### Links
 
-[live site URL here](https://unrivaled-cranachan-0d7c35.netlify.app/)
+[live site URL here](https://pupbnb.netlify.app/)
 
 ## My process
 
 ### Built with
 
-- Semantic HTML5 markup
-- Mobile-first workflow
-- [Tailwind](https://tailwindcss.com/) - Utility first CSS Framework
-
 ### Useful resources
-
-- [Tailwind website](https://www.tailwindcss.com) - This helped me for the overall documentation as well as learning how to tackle this project using Tailwind CLI vs the Play CDN.
-- [Tailwind cheatsheet](https://nerdcave.com/tailwind-cheat-sheet) - This is an amazing one stop shop I referred back to often. Already have it bookmarked.
 
 ## Author
 
