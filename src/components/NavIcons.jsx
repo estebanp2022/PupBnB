@@ -30,23 +30,23 @@ function NavIcons() {
           <i class="fa-solid fa-frog"></i>
           <p>Frog</p>
         </div>
-        <div className="bottom-nav-svg">
+        <div className="bottom-nav-svg svg-none">
           <i class="fa-solid fa-kiwi-bird"></i>
           <p>Kiwi Bird</p>
         </div>
-        <div className="bottom-nav-svg">
+        <div className="bottom-nav-svg svg-none">
           <i class="fa-solid fa-horse"></i>
           <p>Horse</p>
         </div>
-        <div className="bottom-nav-svg">
+        <div className="bottom-nav-svg svg-none">
           <i class="fa-solid fa-fish-fins"></i>
           <p>Fish</p>
         </div>
-        <div className="bottom-nav-svg">
+        <div className="bottom-nav-svg svg-none">
           <i class="fa-solid fa-dove"></i>
           <p>Dove</p>
         </div>
-        <div className="bottom-nav-svg">
+        <div className="bottom-nav-svg svg-none">
           <i class="fa-solid fa-mosquito"></i>
           <p>Mosquito</p>
         </div>

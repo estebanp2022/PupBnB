@@ -7,7 +7,7 @@ function BrandLogo() {
           <p className="brand-name">pupbnb</p>
         </div>
         <div className="nav-text">
-          <h1>Get your puppy fix here</h1>
+          <h1>Boost your serotonin naturally!</h1>
         </div>
       </div>
     </div>
