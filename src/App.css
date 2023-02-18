@@ -152,18 +152,33 @@ section {
 }
 
 .dog-btn {
-  border: 2px solid #ff385c;
-  border-radius: 20px;
   display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 5px 20px;
-  /* margin-left: 40px; */
+  outline: none;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 600;
+  border-radius: 8px;
+  padding: 10px 24px;
+  border: none;
+  transition: box-shadow 0.2s ease 0s, -ms-transform 0.1s ease 0s,
+    -webkit-transform 0.1s ease 0s, transform 0.1s ease 0s;
+  background: linear-gradient(
+    to right,
+    rgb(230, 30, 77) 0%,
+    rgb(227, 28, 95) 50%,
+    rgb(215, 4, 102) 100%
+  );
+  color: #fff;
+}
+
+.dog-btn:hover {
+  transform: translateY(2px);
 }
 
 .dog-svg {
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
 }
 
 /* @media (max-width: 930px) {
