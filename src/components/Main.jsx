@@ -9,23 +9,23 @@ function Main() {
     <Card key={card.id} img={card.urls.small} />
   ));
 
-  useEffect(() => {
+  function fetchData() {
     fetch(
-      "https://apis.scrimba.com/unsplash/photos/random?orientation=portrait&query=puppy&count=9"
+      "https://apis.scrimba.com/unsplash/photos/random?orientation=portrait&query=puppy&count=20"
     )
       .then((res) => res.json())
       .then((data) => {
         setPics(data);
       });
-  }, []);
-
-  function newPic() {
-    console.log("works");
   }
+
+  useEffect(() => {
+    fetchData();
+  }, []);
 
   return (
     <div className="main-container">
-      <PupBtn handleClick={newPic} />
+      <PupBtn handleClick={fetchData} />
       <div className="card-container">{dogCard}</div>
     </div>
   );

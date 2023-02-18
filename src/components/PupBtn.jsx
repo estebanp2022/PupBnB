@@ -5,7 +5,7 @@ function PupBtn(props) {
     <div className="svg-container">
       <button onClick={props.handleClick} className="dog-btn">
         <img src={dog2} alt="" className="dog-svg" />
-        <p>Get A New Pic</p>
+        <p>Get More Pictures!</p>
       </button>
     </div>
   );
