@@ -186,26 +186,31 @@ nav {
   margin-bottom: 9px;
 }
 
-.dog-btn {
-  display: flex;
-  outline: none;
+.btn_center {
   cursor: pointer;
-  font-size: 16px;
-  font-weight: 600;
-  border-radius: 8px;
-  padding: 10px 24px;
+  font-family: inherit;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
   border: none;
-  background: linear-gradient(
-    to right,
-    rgb(230, 30, 77) 0%,
-    rgb(227, 28, 95) 50%,
-    rgb(215, 4, 102) 100%
-  );
-  color: #fff;
+  color: white;
+  width: 240px;
+  height: 60px;
+  letter-spacing: 2px;
+  border-radius: 10px;
+  font-weight: bold;
+  background-color: #ff385c;
+  box-shadow: 0px 15px 18px -6px rgba(255, 56, 92, 0.8);
+  transition: all 0.4s;
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  -ms-transition: all 0.4s;
+  -o-transition: all 0.4s;
 }
 
-.dog-btn:hover {
-  transform: translateY(2px);
+.btn_center:hover {
+  box-shadow: 0px 22px 19px -8px rgba(251, 20, 62, 0.65);
+  transform: scale(1.02, 1.02);
 }
 
 .dog-svg {
