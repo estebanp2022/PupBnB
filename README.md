@@ -33,7 +33,7 @@ I'm fetching the data from Unsplash using the API from one of my Scrimba courses
 
 ### Built with
 
-I used HTML, CSS, JavaScript, APIs & React, as well as Vite to build project.
+I used HTML, CSS, JavaScript, APIs & React, as well as Vite to build this project.
 
 ### Useful resources
 

@@ -38,7 +38,6 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  /* border: 1px solid rgb(60, 0, 128); */
 }
 
 .brand-logo {
@@ -104,13 +103,11 @@ nav {
 .bottom-nav-svg-container {
   width: 90%;
   max-width: 1440px;
-
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 100%;
-  /* border: 1px solid purple; */
 }
 
 .bottom-nav-svg {
@@ -155,7 +152,6 @@ nav {
   gap: 40px;
   overflow-x: auto;
   width: 90%;
-  /* border: 1px solid red; */
 }
 
 .card-container {
@@ -165,7 +161,6 @@ nav {
   justify-content: center;
   position: relative;
   flex-wrap: wrap;
-  /* border: 1px solid rgb(255, 0, 170); */
 }
 
 .card {
@@ -175,7 +170,6 @@ nav {
   flex-direction: column;
   position: relative;
   margin: 15px;
-  /* border: 1px solid blue; */
 }
 
 .fa-heart {
@@ -195,7 +189,6 @@ nav {
   object-fit: cover;
   border-radius: 20px;
   margin-bottom: 9px;
-  /* border: 1px solid greenyellow; */
 }
 
 .dog-btn {
@@ -203,13 +196,10 @@ nav {
   outline: none;
   cursor: pointer;
   font-size: 16px;
-  line-height: 20px;
   font-weight: 600;
   border-radius: 8px;
   padding: 10px 24px;
   border: none;
-  transition: box-shadow 0.2s ease 0s, -ms-transform 0.1s ease 0s,
-    -webkit-transform 0.1s ease 0s, transform 0.1s ease 0s;
   background: linear-gradient(
     to right,
     rgb(230, 30, 77) 0%,
@@ -250,7 +240,6 @@ nav {
 .footer-right {
   display: flex;
   justify-content: space-between;
-  /* border: 1px solid rgb(215, 4, 102); */
 }
 
 .footer-left {
@@ -281,19 +270,13 @@ nav {
 }
 
 @media (max-width: 700px) {
-  /* .brand-logo {
-    margin: 0 auto;
-  } */
-
   .nav-text {
     display: none;
   }
 }
 
 @media (max-width: 600px) {
-  .dog-svg {
-    display: none;
-  }
+  .dog-svg,
   .svg-none {
     display: none;
   }
