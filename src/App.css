@@ -250,14 +250,12 @@ nav {
   .footer {
     height: 38px;
   }
-
   .footer-left {
     width: 300px;
   }
   .footer-right {
     width: 100px;
   }
-
   .footer-left p,
   .footer-right p {
     font-size: 10px;
@@ -265,9 +263,6 @@ nav {
   .nav-text {
     display: none;
   }
-}
-
-@media (max-width: 600px) {
   .dog-svg,
   .svg-none {
     display: none;
@@ -278,7 +273,6 @@ nav {
   .footer-left {
     width: 100%;
   }
-
   .footer-right {
     display: none;
   }
