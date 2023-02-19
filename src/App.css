@@ -45,7 +45,9 @@ nav {
 
 .brand-name,
 .fa-dog,
-.fa-heart {
+.fa-heart,
+.fa-bars,
+.fa-circle-user {
   color: #ff385c;
 }
 
@@ -78,11 +80,6 @@ nav {
   display: flex;
   justify-content: space-between;
   cursor: pointer;
-}
-
-.fa-bars,
-.fa-circle-user {
-  color: #ff385c;
 }
 
 .fa-bars {
