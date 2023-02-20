@@ -27,7 +27,7 @@ I'm fetching the data from Unsplash using the API from one of my Scrimba courses
 
 ### Links
 
-[live site URL here](https://pupbnb.netlify.app/)
+[Live Site Here](https://pupbnb.netlify.app/)
 
 ## My process
 
